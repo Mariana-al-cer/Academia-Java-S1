@@ -1,0 +1,27 @@
+package TodasVitaminas;
+
+import Vitaminas.Vitaminas;
+
+public class VitaminaB12 extends Vitaminas {
+    String enfermedadRelacionada;
+
+    public VitaminaB12() {
+        nombre = "Vitamina B12";
+        clasificacion = "Hidrosoluble";
+        enfermedadRelacionada = "Enfermedad sistemática combinada: anemia megaloblástica y " +
+                "degeneración de los cordones med";
+    }
+
+    public void mostrarEnfermedadRelacionada() {
+        System.out.println("La deficiencia de vitamina E puede causar: " + enfermedadRelacionada);
+    }
+
+    @Override
+    public void funcionVitamina() {
+        System.out.println("""
+                Funciones principales de la vitamina E:
+                Antioxidante que elimina los radicales libres 
+                
+                """);
+    }
+}

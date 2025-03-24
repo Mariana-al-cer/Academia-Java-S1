@@ -1,0 +1,8 @@
+public interface VariacionGenetica {
+
+    void describirEfecto();
+
+    static void mostrarInformacionGeneral() {
+        System.out.println("Las variaciones genéticas son cambios en la secuencia del ADN.");
+    }
+}

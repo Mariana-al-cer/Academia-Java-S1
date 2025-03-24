@@ -1,0 +1,15 @@
+public class Vitaminas {
+
+    String nombre;
+    String clasificacion;
+
+    void informacionVitamina() {
+        System.out.println("Nombre Vitamina: " + nombre );
+        System.out.println("Tipo Vitamina: " + clasificacion);
+    };
+
+    void funcionVitamina() {
+        System.out.println("Las vitaminas son un grupo de sustancias que son necesarias " +
+                "para el funcionamiento celular, el crecimiento y el desarrollo normales");
+    };
+}

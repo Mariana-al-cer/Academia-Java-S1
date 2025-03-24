@@ -1,0 +1,16 @@
+public class Mutacion {
+
+    String nombreMutacion;
+    VariacionGenetica variacion;
+
+    public Mutacion(String nombreMutacion) {
+        this.nombreMutacion = nombreMutacion;
+    }
+
+    void describirEfecto() {
+        System.out.println(nombreMutacion + " es una mutación.");
+        variacion.describirEfecto();
+    }
+
+
+}
